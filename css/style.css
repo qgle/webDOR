@@ -38,12 +38,12 @@ body{
 
 .content{
 	width:50%;
+	min-width:500px;
 	max-height:70%;
 	margin:auto;
 	margin-top:10px;
 	padding:10px;
 	text-align:justify;
-	min-width:500px;
 	border-radius:5px;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;	
@@ -52,11 +52,12 @@ body{
 
 .footer{
 	width:50%;
+	min-width:500px;
 	margin:auto;
 	margin-top:10px;
 	padding:10px;
 	border-radius:5px;
-	min-width:500px;	
+	
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	background-color:#606060;
