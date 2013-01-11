@@ -1,11 +1,10 @@
 body{
-	background-color:#404040;
+	background-color: white;
 	color:white;
 	font-family:"Trebuchet MS";
 }
 
 .topbar{
-	width:100%;
 	min-width:500px;
 	height:40px;
 	background-color:#606060;
@@ -17,11 +16,12 @@ body{
 }
 
 .litebar{
-	width:100%;
-	min-width:500px;
-	height:5px;
-	background-color:#A0A0A0;
-	margin-bottom:10px;
+	width: 100%;
+	min-width: 500px;
+	height: 5px;
+	background-color: #A0A0A0;
+	margin-bottom: 10px;
+	box-shadow: 0px 3px 5px #888;
 }
 
 .header{
@@ -34,6 +34,11 @@ body{
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	background-color:#606060;
+	box-shadow: 0px 3px 5px #888;
+}
+
+.container{
+	display: inline-block;
 }
 
 .content{
@@ -48,6 +53,7 @@ body{
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;	
 	background-color:#606060;
+	box-shadow: 0px 3px 5px #888;
 }
 
 .footer{
@@ -61,5 +67,5 @@ body{
 	-moz-border-radius:5px;
 	background-color:#606060;
 	text-align:center;
+	box-shadow: 0px 3px 5px #888;
 }
-
